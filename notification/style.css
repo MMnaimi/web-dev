@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eceef2;
+}
+.container {
+    background-color: yellowgreen;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.container .title {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .title .mini-title {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container .title .mini-description {
+    display: inline-block;
+    font-size: 14px;
+    opacity: .5;
+}
+.container .content {
+    display: flex;
+    align-items: center;
+    background: #eceef157;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container .content .icon {
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+.container .content .icon i {
+    transform: scale(0.8);
+}
+.container .content .name-note {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 11px;
+}
+.container .content .name-note .name {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.container .content .name-note .note {
+    display: inline-block;
+    font-size: 12px;
+    opacity: .6;
+    font-weight: 500;
+}
+.container .content .toggle {
+    margin-right: 10px;
+}
+.container .content .toggle .toggle-icon {
+    display: inline-block;
+    color: #225ee7;
+}
+.container .content .toggle .toggle-icon i {
+    transform: scale(1.7);
+}
