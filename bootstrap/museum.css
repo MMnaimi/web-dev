@@ -1,0 +1,47 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-color: pink;
+}
+nav {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.navbar-brand {
+    color: red;
+    font-size: 1.5rem;
+}
+.nav-link {
+    color: white;
+}
+.navbar-brand:hover, .nav-link:hover{
+    color: red;
+}
+#headingGroup h1{
+    color: white;
+    font-weight: 100;
+    font-size: 3rem;
+}
+#headingGroup span {
+    color: red;
+}
+
+.blureb h2 {
+    font-weight: 100;
+    color: red;
+    font-size: 2rem;
+}
+.blureb p {
+    font-weight: 100;
+    color: rgb(187, 76, 76);
+    line-height: 2;
+    font-size: 1.125rem;
+}
+.milk-content {
+    margin-top: 80px;
+}
+#mainNavbar.scrolled {
+    background-color: #e9b5da;
+    transition: background-color 1s ease-in-out;
+}
